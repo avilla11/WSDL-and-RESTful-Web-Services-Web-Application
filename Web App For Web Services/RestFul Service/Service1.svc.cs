@@ -22,7 +22,7 @@ namespace RestFul_Service
             List<string> list = new List<string>(); //list to add to
             //GeoInfo parser = new GeoInfo();
 
-            string url = "https://maps.googleapis.com/maps/api/directions/json?origin=" + origin + "&destination=" + destination + "&mode=" + mode + "&key=AIzaSyCu7SZ-mwmbBOTB_d07sfg3Ub_IGxsZvJE"; //url with api call
+            string url = "https://maps.googleapis.com/maps/api/directions/json?origin=" + origin + "&destination=" + destination + "&mode=" + mode + "&key="; //url with api call enter your own key to test
             using (var webClient = new System.Net.WebClient())
             {
                 var json = webClient.DownloadString(url); //downloading the url
