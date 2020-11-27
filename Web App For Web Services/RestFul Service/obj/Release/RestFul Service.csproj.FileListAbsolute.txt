@@ -1,0 +1,10 @@
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\RestFul Service\bin\RestFul Service.dll.config
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\RestFul Service\bin\RestFul Service.dll
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\RestFul Service\bin\RestFul Service.pdb
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\RestFul Service\bin\Newtonsoft.Json.dll
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\RestFul Service\bin\Newtonsoft.Json.xml
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\RestFul Service\obj\Release\RestFul Service.csprojAssemblyReference.cache
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\RestFul Service\obj\Release\RestFul Service.csproj.CoreCompileInputs.cache
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\RestFul Service\obj\Release\RestFul Service.csproj.CopyComplete
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\RestFul Service\obj\Release\RestFul Service.dll
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\RestFul Service\obj\Release\RestFul Service.pdb

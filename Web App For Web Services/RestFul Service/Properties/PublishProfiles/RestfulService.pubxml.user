@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>\\webstrar.fulton.asu.edu\website59\page4</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/09/2019 00:56:44</publishTime>
+    </File>
+    <File Include="bin/RestFul Service.dll">
+      <publishTime>10/25/2020 17:07:09</publishTime>
+    </File>
+    <File Include="bin/RestFul Service.pdb">
+      <publishTime>10/25/2020 17:07:09</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>10/25/2020 13:17:18</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/25/2020 14:13:15</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

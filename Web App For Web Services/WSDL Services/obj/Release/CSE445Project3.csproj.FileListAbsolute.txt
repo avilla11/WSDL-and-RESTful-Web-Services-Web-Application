@@ -1,0 +1,10 @@
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\CSE445Project3\bin\CSE445Project3.dll.config
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\CSE445Project3\bin\CSE445Project3.dll
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\CSE445Project3\bin\CSE445Project3.pdb
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\CSE445Project3\bin\Newtonsoft.Json.dll
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\CSE445Project3\bin\Newtonsoft.Json.xml
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\CSE445Project3\obj\Release\CSE445Project3.csprojAssemblyReference.cache
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\CSE445Project3\obj\Release\CSE445Project3.csproj.CoreCompileInputs.cache
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\CSE445Project3\obj\Release\CSE445Project3.csproj.CopyComplete
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\CSE445Project3\obj\Release\CSE445Project3.dll
+C:\Users\Aurelio\Desktop\CSE445Project3WebApplication\CSE445Project3\obj\Release\CSE445Project3.pdb
