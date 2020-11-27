@@ -23,7 +23,7 @@ namespace CSE445Project3
         {
 
             List<string> information = new List<string>(); //create a list to store the nearest store based on zipcode
-            string url = "https://maps.googleapis.com/maps/api/geocode/json?components=postal_code:" + zipCode + "&sensor=false" + "&key=AIzaSyCu7SZ-mwmbBOTB_d07sfg3Ub_IGxsZvJE"; //call the google geocode api with zip and my api key
+            string url = "https://maps.googleapis.com/maps/api/geocode/json?components=postal_code:" + zipCode + "&sensor=false" + "&key="; //call the google geocode api with zip and my api key enter your own key to test
             ParseLatAndLon latLonParse = new ParseLatAndLon(); //creating a longitude and latitude parsing object from the parse latitude and logitude class
             ParseStore storeJson = new ParseStore(); //creating a storejson object from the Parse store class
             string coordinates; //string to store the latitude and longitude
@@ -44,7 +44,7 @@ namespace CSE445Project3
 
 
                     url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="
-                        + coordinates + "&radius=30000&keyword=" + storeName + "&key=AIzaSyCu7SZ-mwmbBOTB_d07sfg3Ub_IGxsZvJE"; //using the places google api with the store name and my api key same as the one for zip code
+                        + coordinates + "&radius=30000&keyword=" + storeName + "&"; //using the places google api with the store name and my api key same as the one for zip code enter your own key to test
 
                     json = webClient.DownloadString(url); //extracting json again like before
                     Console.WriteLine(json);
@@ -124,7 +124,7 @@ namespace CSE445Project3
             List<string> information = new List<string>(); //creating a list to hold the information
             ParseStates parser = new ParseStates(); //creating an instance of the parse states class
 
-            string url = "https://api.ers.usda.gov/data/arms/state?api_key=lwhiC0mGA1xsVRUjdIbjgsEJarBmZ1udfdd2tTDe"; //the url to the api call
+            string url = "https://api.ers.usda.gov/data/arms/state?api_key="; //the url to the api call enter your own key to test
 
             using (var webClient = new System.Net.WebClient())
             {
@@ -176,7 +176,7 @@ namespace CSE445Project3
             List<string> information = new List<string>(); //a list to hold the information for display
             //GeoInfo parser = new GeoInfo();
 
-            string url = "https://api.zip-tax.com/request/v40?key=968peOQc12igWqKZ&postalcode=" + zipcode; //the url to make the api request
+            string url = "https://api.zip-tax.com/request/v40?key=&postalcode=" + zipcode; //the url to make the api request enter your own key to test
             using (var webClient = new System.Net.WebClient())
             {
                 var json = webClient.DownloadString(url); //downloading the url contents for json
@@ -258,7 +258,7 @@ namespace CSE445Project3
             List<string> list = new List<string>(); //list to add info to
             //GeoInfo parser = new GeoInfo();
 
-            string url = "https://api.waqi.info/feed/" + city + "/?token=392e0da0a4b07ae7cd44f8e372203d50b70d71e0"; //the api call url
+            string url = "https://api.waqi.info/feed/" + city + "/?token="; //the api call url enter your own key to test
             using (var webClient = new System.Net.WebClient())
             {
                 var json = webClient.DownloadString(url); //getting json
